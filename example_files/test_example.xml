@@ -1,0 +1,1197 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <tbsData>
+
+    <doc_purpose>KBO11012</doc_purpose>
+
+    <message system="AISKB">
+      <MessageReference>111111111111111111111111111111111111111111</MessageReference>
+      <date>11.02.2023</date>
+      <source>
+        <bic>1111111111111</bic>
+        <bankname>Some bankname</bankname>
+      </source>
+      <Response type="11015" name="getfullhistscorefiz">
+        <MessageLinkReference>C111111111111111111111111111111</MessageLinkReference>
+        <result>
+          <completecode class="A">
+            <errorcode>0</errorcode>
+            <description>Запрос успешно обработан</description>
+          </completecode>
+          <client>
+            <titul>
+              <FIO>
+                <lastname>lastname</lastname>
+                <firstname>firstname</firstname>
+                <middlename>middlename</middlename>
+              </FIO>
+              <nationality>
+                <codCountry>112</codCountry>
+                <nameCountry>Республика Беларусь</nameCountry>
+              </nationality>
+              <sex>M</sex>
+              <IDNumber>11111111111111111111</IDNumber>
+              <birthday>01.01.2000</birthday>
+            </titul>
+            <registrationplace>
+              <country>
+                <codCountry>112</codCountry>
+                <nameCountry>Республика Беларусь</nameCountry>
+              </country>
+              <nationalplace>
+                <codSettlement>4401000000</codSettlement>
+                <nameSettlement>г. Гродно</nameSettlement>
+              </nationalplace>
+            </registrationplace>
+            <scoring>
+              <ratingclass>A3</ratingclass>
+              <finalscore>344</finalscore>
+              <finalPPD>0.36</finalPPD>
+            </scoring>
+            <ContractList>
+              <CreditGroup>
+                <CreditContractList>
+                  <contract>
+                    <contractnumber>11111111111111111111</contractnumber>
+                    <date>21.05.2022</date>
+                    <credittype>
+                      <type>2</type>
+                      <nametype>Кредитный договор с невозобновляемой кредитной линией</nametype>
+                    </credittype>
+                    <AmountOnDate>
+                      <amount flactual="1">
+                        <sum>53.19</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </amount>
+                      <date>21.05.2022</date>
+                    </AmountOnDate>
+                    <PerformanceDateOnDate>
+                      <performancedate>20.08.2022</performancedate>
+                      <date>21.05.2022</date>
+                    </PerformanceDateOnDate>
+                    <guarantee>
+                      <guaranteetype>
+                        <type>6</type>
+                        <nametype>Иные способы</nametype>
+                      </guaranteetype>
+                      <date>21.05.2022</date>
+                    </guarantee>
+                    <CreditGrantingLastDate>05.06.2022</CreditGrantingLastDate>
+                    <stopcontract>
+                      <stopdate>25.10.2022</stopdate>
+                      <stopcontractreason>
+                        <type>8</type>
+                        <nametype>Прекращение договора исполнением - добровольно субъектом кредитной истории</nametype>
+                      </stopcontractreason>
+                    </stopcontract>
+                    <credittransaction>
+                      <lastpresentation>25.10.2022</lastpresentation>
+                      <remainingdebt flactual="1">
+                        <sum>0.00</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>24.10.2022</lastpresentation>
+                      <latepercent flactual="1">
+                        <debit>0.00</debit>
+                        <credit>1.17</credit>
+                        <rest>0.00</rest>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </latepercent>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>18.10.2022</lastpresentation>
+                      <latepercent>
+                        <debit>1.17</debit>
+                        <credit>0.00</credit>
+                        <rest>1.17</rest>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </latepercent>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>10.08.2022</lastpresentation>
+                      <remainingdebt>
+                        <sum>0.00</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>18.07.2022</lastpresentation>
+                      <remainingdebt>
+                        <sum>17.73</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                      <latesum flactual="1">
+                        <debit>5.65</debit>
+                        <credit>5.65</credit>
+                        <rest>0.00</rest>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </latesum>
+                      <latepercent>
+                        <debit>0.46</debit>
+                        <credit>0.46</credit>
+                        <rest>0.00</rest>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </latepercent>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>15.06.2022</lastpresentation>
+                      <remainingdebt>
+                        <sum>23.38</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>23.05.2022</lastpresentation>
+                      <remainingdebt>
+                        <sum>53.19</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <DebtSum>
+                      <sum>0.00</sum>
+                      <currency>
+                        <codcurrency>933</codcurrency>
+                        <namecurrency>BYN - Белорусский рубль</namecurrency>
+                      </currency>
+                    </DebtSum>
+                    <late_statistics_count>
+                      <latesum_count>
+                        <laterange>
+                          <mindays>1</mindays>
+                          <maxdays>7</maxdays>
+                          <count>0</count>
+                        </laterange>
+                        <laterange>
+                          <mindays>8</mindays>
+                          <maxdays>30</maxdays>
+                          <count>0</count>
+                        </laterange>
+                        <laterange>
+                          <mindays>31</mindays>
+                          <maxdays>60</maxdays>
+                          <count>0</count>
+                        </laterange>
+                        <laterange>
+                          <mindays>61</mindays>
+                          <maxdays>90</maxdays>
+                          <count>0</count>
+                        </laterange>
+                        <laterange>
+                          <mindays>91</mindays>
+                          <maxdays>180</maxdays>
+                          <count>0</count>
+                        </laterange>
+                        <laterange>
+                          <mindays>181</mindays>
+                          <count>0</count>
+                        </laterange>
+                      </latesum_count>
+                      <latepercent_count>
+                        <laterange>
+                          <mindays>1</mindays>
+                          <maxdays>7</maxdays>
+                          <count>1</count>
+                        </laterange>
+                        <laterange>
+                          <mindays>8</mindays>
+                          <maxdays>30</maxdays>
+                          <count>0</count>
+                        </laterange>
+                        <laterange>
+                          <mindays>31</mindays>
+                          <maxdays>60</maxdays>
+                          <count>0</count>
+                        </laterange>
+                        <laterange>
+                          <mindays>61</mindays>
+                          <maxdays>90</maxdays>
+                          <count>0</count>
+                        </laterange>
+                        <laterange>
+                          <mindays>91</mindays>
+                          <maxdays>180</maxdays>
+                          <count>0</count>
+                        </laterange>
+                        <laterange>
+                          <mindays>181</mindays>
+                          <count>0</count>
+                        </laterange>
+                      </latepercent_count>
+                    </late_statistics_count>
+                  </contract>
+                  <contract>
+                    <contractnumber>555344603820</contractnumber>
+                    <date>10.02.2022</date>
+                    <credittype>
+                      <type>1</type>
+                      <nametype>Кредитный договор</nametype>
+                    </credittype>
+                    <AmountOnDate>
+                      <amount flactual="1">
+                        <sum>104.00</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </amount>
+                      <date>10.02.2022</date>
+                    </AmountOnDate>
+                    <PerformanceDateOnDate>
+                      <performancedate>09.08.2022</performancedate>
+                      <date>10.02.2022</date>
+                    </PerformanceDateOnDate>
+                    <guarantee>
+                      <guaranteetype>
+                        <type>6</type>
+                        <nametype>Иные способы</nametype>
+                      </guaranteetype>
+                      <date>10.02.2022</date>
+                    </guarantee>
+                    <CreditGrantingLastDate>06.03.2022</CreditGrantingLastDate>
+                    <stopcontract>
+                      <stopdate>05.05.2022</stopdate>
+                      <stopcontractreason>
+                        <type>8</type>
+                        <nametype>Прекращение договора исполнением - добровольно субъектом кредитной истории</nametype>
+                      </stopcontractreason>
+                    </stopcontract>
+                    <credittransaction>
+                      <lastpresentation>04.05.2022</lastpresentation>
+                      <remainingdebt flactual="1">
+                        <sum>0.00</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>14.03.2022</lastpresentation>
+                      <remainingdebt>
+                        <sum>54.00</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>10.02.2022</lastpresentation>
+                      <remainingdebt>
+                        <sum>104.00</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                  </contract>
+                  <contract>
+                    <contractnumber>555344603495</contractnumber>
+                    <date>17.12.2021</date>
+                    <credittype>
+                      <type>1</type>
+                      <nametype>Кредитный договор</nametype>
+                    </credittype>
+                    <AmountOnDate>
+                      <amount flactual="1">
+                        <sum>97.00</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </amount>
+                      <date>17.12.2021</date>
+                    </AmountOnDate>
+                    <PerformanceDateOnDate>
+                      <performancedate>16.06.2022</performancedate>
+                      <date>17.12.2021</date>
+                    </PerformanceDateOnDate>
+                    <guarantee>
+                      <guaranteetype>
+                        <type>6</type>
+                        <nametype>Иные способы</nametype>
+                      </guaranteetype>
+                      <date>17.12.2021</date>
+                    </guarantee>
+                    <CreditGrantingLastDate>10.01.2022</CreditGrantingLastDate>
+                    <stopcontract>
+                      <stopdate>11.02.2022</stopdate>
+                      <stopcontractreason>
+                        <type>8</type>
+                        <nametype>Прекращение договора исполнением - добровольно субъектом кредитной истории</nametype>
+                      </stopcontractreason>
+                    </stopcontract>
+                    <credittransaction>
+                      <lastpresentation>10.02.2022</lastpresentation>
+                      <remainingdebt flactual="1">
+                        <sum>0.00</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>10.01.2022</lastpresentation>
+                      <remainingdebt>
+                        <sum>49.00</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>17.12.2021</lastpresentation>
+                      <remainingdebt>
+                        <sum>97.00</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                  </contract>
+                  <contract>
+                    <contractnumber>3006017423</contractnumber>
+                    <date>24.05.2021</date>
+                    <credittype>
+                      <type>1</type>
+                      <nametype>Кредитный договор</nametype>
+                    </credittype>
+                    <AmountOnDate>
+                      <amount flactual="1">
+                        <sum>613.67</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </amount>
+                      <date>24.05.2021</date>
+                    </AmountOnDate>
+                    <PerformanceDateOnDate>
+                      <performancedate>24.11.2021</performancedate>
+                      <date>24.05.2021</date>
+                    </PerformanceDateOnDate>
+                    <guarantee>
+                      <guaranteetype>
+                        <type>6</type>
+                        <nametype>Иные способы</nametype>
+                      </guaranteetype>
+                      <date>24.05.2021</date>
+                    </guarantee>
+                    <CreditGrantingLastDate>24.06.2021</CreditGrantingLastDate>
+                    <stopcontract>
+                      <stopdate>16.11.2021</stopdate>
+                      <stopcontractreason>
+                        <type>8</type>
+                        <nametype>Прекращение договора исполнением - добровольно субъектом кредитной истории</nametype>
+                      </stopcontractreason>
+                    </stopcontract>
+                    <credittransaction>
+                      <lastpresentation>16.11.2021</lastpresentation>
+                      <remainingdebt flactual="1">
+                        <sum>0.00</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>13.10.2021</lastpresentation>
+                      <remainingdebt>
+                        <sum>102.27</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>15.09.2021</lastpresentation>
+                      <remainingdebt>
+                        <sum>204.55</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>20.08.2021</lastpresentation>
+                      <remainingdebt>
+                        <sum>306.83</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>13.07.2021</lastpresentation>
+                      <remainingdebt>
+                        <sum>409.11</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>10.06.2021</lastpresentation>
+                      <remainingdebt>
+                        <sum>511.39</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>26.05.2021</lastpresentation>
+                      <remainingdebt>
+                        <sum>613.67</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                  </contract>
+                  <contract>
+                    <contractnumber>1328049608</contractnumber>
+                    <date>12.02.2021</date>
+                    <credittype>
+                      <type>1</type>
+                      <nametype>Кредитный договор</nametype>
+                    </credittype>
+                    <AmountOnDate>
+                      <amount flactual="1">
+                        <sum>194.09</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </amount>
+                      <date>12.02.2021</date>
+                    </AmountOnDate>
+                    <PerformanceDateOnDate>
+                      <performancedate>12.08.2021</performancedate>
+                      <date>12.02.2021</date>
+                    </PerformanceDateOnDate>
+                    <guarantee>
+                      <guaranteetype>
+                        <type>6</type>
+                        <nametype>Иные способы</nametype>
+                      </guaranteetype>
+                      <date>12.02.2021</date>
+                    </guarantee>
+                    <CreditGrantingLastDate>12.08.2021</CreditGrantingLastDate>
+                    <stopcontract>
+                      <stopdate>09.07.2021</stopdate>
+                      <stopcontractreason>
+                        <type>8</type>
+                        <nametype>Прекращение договора исполнением - добровольно субъектом кредитной истории</nametype>
+                      </stopcontractreason>
+                    </stopcontract>
+                    <credittransaction>
+                      <lastpresentation>09.07.2021</lastpresentation>
+                      <remainingdebt flactual="1">
+                        <sum>0.00</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>12.06.2021</lastpresentation>
+                      <remainingdebt>
+                        <sum>64.69</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>12.05.2021</lastpresentation>
+                      <remainingdebt>
+                        <sum>97.04</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>12.04.2021</lastpresentation>
+                      <remainingdebt>
+                        <sum>129.39</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>12.03.2021</lastpresentation>
+                      <remainingdebt>
+                        <sum>161.74</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>15.02.2021</lastpresentation>
+                      <remainingdebt>
+                        <sum>194.09</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                  </contract>
+                  <contract>
+                    <contractnumber>0000010036165</contractnumber>
+                    <date>06.06.2019</date>
+                    <credittype>
+                      <type>1</type>
+                      <nametype>Кредитный договор</nametype>
+                    </credittype>
+                    <AmountOnDate>
+                      <amount flactual="1">
+                        <sum>615.00</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </amount>
+                      <date>06.06.2019</date>
+                    </AmountOnDate>
+                    <PerformanceDateOnDate>
+                      <performancedate>15.02.2020</performancedate>
+                      <date>06.06.2019</date>
+                    </PerformanceDateOnDate>
+                    <guarantee>
+                      <guaranteetype>
+                        <type>6</type>
+                        <nametype>Иные способы</nametype>
+                      </guaranteetype>
+                      <date>06.06.2019</date>
+                    </guarantee>
+                    <CreditGrantingLastDate>06.06.2019</CreditGrantingLastDate>
+                    <stopcontract>
+                      <stopdate>17.02.2020</stopdate>
+                      <stopcontractreason>
+                        <type>8</type>
+                        <nametype>Прекращение договора исполнением - добровольно субъектом кредитной истории</nametype>
+                      </stopcontractreason>
+                    </stopcontract>
+                    <credittransaction>
+                      <lastpresentation>17.02.2020</lastpresentation>
+                      <remainingdebt flactual="1">
+                        <sum>0.00</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>15.01.2020</lastpresentation>
+                      <remainingdebt>
+                        <sum>76.88</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>16.12.2019</lastpresentation>
+                      <remainingdebt>
+                        <sum>153.76</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>15.11.2019</lastpresentation>
+                      <remainingdebt>
+                        <sum>230.64</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>15.10.2019</lastpresentation>
+                      <remainingdebt>
+                        <sum>307.52</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>16.09.2019</lastpresentation>
+                      <remainingdebt>
+                        <sum>384.39</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>15.08.2019</lastpresentation>
+                      <remainingdebt>
+                        <sum>461.26</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>15.07.2019</lastpresentation>
+                      <remainingdebt>
+                        <sum>538.13</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>10.06.2019</lastpresentation>
+                      <remainingdebt>
+                        <sum>615.00</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                  </contract>
+                  <contract>
+                    <contractnumber>55538005490</contractnumber>
+                    <date>10.11.2018</date>
+                    <credittype>
+                      <type>1</type>
+                      <nametype>Кредитный договор</nametype>
+                    </credittype>
+                    <AmountOnDate>
+                      <amount flactual="1">
+                        <sum>652.05</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </amount>
+                      <date>10.11.2018</date>
+                    </AmountOnDate>
+                    <PerformanceDateOnDate>
+                      <performancedate>14.11.2019</performancedate>
+                      <date>10.11.2018</date>
+                    </PerformanceDateOnDate>
+                    <guarantee>
+                      <guaranteetype>
+                        <type>6</type>
+                        <nametype>Иные способы</nametype>
+                      </guaranteetype>
+                      <date>10.11.2018</date>
+                    </guarantee>
+                    <CreditGrantingLastDate>14.11.2019</CreditGrantingLastDate>
+                    <stopcontract>
+                      <stopdate>14.10.2019</stopdate>
+                      <stopcontractreason>
+                        <type>8</type>
+                        <nametype>Прекращение договора исполнением - добровольно субъектом кредитной истории</nametype>
+                      </stopcontractreason>
+                    </stopcontract>
+                    <credittransaction>
+                      <lastpresentation>14.10.2019</lastpresentation>
+                      <remainingdebt flactual="1">
+                        <sum>0.00</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>13.09.2019</lastpresentation>
+                      <remainingdebt>
+                        <sum>47.05</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>13.08.2019</lastpresentation>
+                      <remainingdebt>
+                        <sum>102.05</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>15.07.2019</lastpresentation>
+                      <remainingdebt>
+                        <sum>157.05</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>11.06.2019</lastpresentation>
+                      <remainingdebt>
+                        <sum>212.05</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>13.05.2019</lastpresentation>
+                      <remainingdebt>
+                        <sum>267.05</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>12.04.2019</lastpresentation>
+                      <remainingdebt>
+                        <sum>322.05</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>18.03.2019</lastpresentation>
+                      <remainingdebt>
+                        <sum>377.05</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>13.02.2019</lastpresentation>
+                      <remainingdebt>
+                        <sum>432.05</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>25.01.2019</lastpresentation>
+                      <remainingdebt>
+                        <sum>487.05</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>12.12.2018</lastpresentation>
+                      <remainingdebt>
+                        <sum>542.05</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>23.11.2018</lastpresentation>
+                      <remainingdebt>
+                        <sum>597.05</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>15.11.2018</lastpresentation>
+                      <remainingdebt>
+                        <sum>652.05</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                  </contract>
+                  <contract>
+                    <contractnumber>60624958</contractnumber>
+                    <date>09.08.2017</date>
+                    <credittype>
+                      <type>1</type>
+                      <nametype>Кредитный договор</nametype>
+                    </credittype>
+                    <AmountOnDate>
+                      <amount flactual="1">
+                        <sum>145.60</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </amount>
+                      <date>09.08.2017</date>
+                    </AmountOnDate>
+                    <PerformanceDateOnDate>
+                      <performancedate>01.06.2018</performancedate>
+                      <date>09.08.2017</date>
+                    </PerformanceDateOnDate>
+                    <guarantee>
+                      <guaranteetype>
+                        <type>6</type>
+                        <nametype>Иные способы</nametype>
+                      </guaranteetype>
+                      <date>09.08.2017</date>
+                    </guarantee>
+                    <stopcontract>
+                      <stopdate>14.05.2018</stopdate>
+                      <stopcontractreason>
+                        <type>1</type>
+                        <nametype>Прекращение договора исполнением</nametype>
+                      </stopcontractreason>
+                    </stopcontract>
+                    <credittransaction>
+                      <lastpresentation>14.05.2018</lastpresentation>
+                      <remainingdebt flactual="1">
+                        <sum>0.00</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>12.04.2018</lastpresentation>
+                      <remainingdebt>
+                        <sum>14.56</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>14.03.2018</lastpresentation>
+                      <remainingdebt>
+                        <sum>29.12</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>15.02.2018</lastpresentation>
+                      <remainingdebt>
+                        <sum>43.68</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                  </contract>
+                </CreditContractList>
+                <OverdraftContractList>
+                  <contract>
+                    <contractnumber>Б/н (880232296)</contractnumber>
+                    <date>12.02.2021</date>
+                    <credittype>
+                      <type>4</type>
+                      <nametype>Договор, содержащий условия овердрафтного кредитования</nametype>
+                    </credittype>
+                    <AmountOnDate>
+                      <amount flactual="1">
+                        <sum>1000.00</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </amount>
+                      <date>12.02.2021</date>
+                    </AmountOnDate>
+                    <PerformanceDateOnDate>
+                      <performancedate>26.01.2026</performancedate>
+                      <date>12.02.2021</date>
+                    </PerformanceDateOnDate>
+                    <guarantee>
+                      <guaranteetype>
+                        <type>6</type>
+                        <nametype>Иные способы</nametype>
+                      </guaranteetype>
+                      <date>12.02.2021</date>
+                    </guarantee>
+                    <CreditGrantingLastDate>12.02.2023</CreditGrantingLastDate>
+                    <credittransaction>
+                      <lastpresentation>12.11.2021</lastpresentation>
+                      <remainingdebt flactual="1">
+                        <sum>0.00</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>08.11.2021</lastpresentation>
+                      <remainingdebt>
+                        <sum>163.80</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>13.10.2021</lastpresentation>
+                      <remainingdebt>
+                        <sum>210.40</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <credittransaction>
+                      <lastpresentation>27.09.2021</lastpresentation>
+                      <remainingdebt>
+                        <sum>257.00</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                    </credittransaction>
+                    <DebtSum>
+                      <sum>0.00</sum>
+                      <currency>
+                        <codcurrency>933</codcurrency>
+                        <namecurrency>BYN - Белорусский рубль</namecurrency>
+                      </currency>
+                    </DebtSum>
+                  </contract>
+                </OverdraftContractList>
+              </CreditGroup>
+              <LeasingGroup>
+                <LeasingContractList>
+                  <contract>
+                    <contractnumber>73418493</contractnumber>
+                    <date>05.08.2017</date>
+                    <credittype>
+                      <type>28</type>
+                      <nametype>Договор лизинга</nametype>
+                    </credittype>
+                    <AmountOnDate>
+                      <amount flactual="1">
+                        <sum>1350.12</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </amount>
+                      <date>22.08.2018</date>
+                    </AmountOnDate>
+                    <PerformanceDateOnDate>
+                      <performancedate>01.09.2018</performancedate>
+                      <date>22.08.2018</date>
+                    </PerformanceDateOnDate>
+                    <Cost>
+                      <sum>1349.99</sum>
+                      <currency>
+                        <codcurrency>933</codcurrency>
+                        <namecurrency>BYN - Белорусский рубль</namecurrency>
+                      </currency>
+                    </Cost>
+                    <PayBYN>N</PayBYN>
+                    <Redemption>
+                      <Available>
+                        <RedemptionValue>
+                          <sum>0.00</sum>
+                          <currency>
+                            <codcurrency>933</codcurrency>
+                            <namecurrency>BYN - Белорусский рубль</namecurrency>
+                          </currency>
+                        </RedemptionValue>
+                      </Available>
+                    </Redemption>
+                    <guarantee>
+                      <guaranteetype>
+                        <type>6</type>
+                        <nametype>Иные способы</nametype>
+                      </guaranteetype>
+                      <date>22.08.2018</date>
+                    </guarantee>
+                    <stopcontract>
+                      <stopdate>01.09.2018</stopdate>
+                      <stopcontractreason>
+                        <type>8</type>
+                        <nametype>Прекращение договора исполнением - добровольно субъектом кредитной истории</nametype>
+                      </stopcontractreason>
+                    </stopcontract>
+                    <LeasingTransaction>
+                      <lastpresentation>30.09.2018</lastpresentation>
+                      <remainingdebt flactual="1">
+                        <sum>0.00</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                      <LateLeasingSum flactual="1">
+                        <debit>0.00</debit>
+                        <credit>0.00</credit>
+                        <rest>0.00</rest>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </LateLeasingSum>
+                    </LeasingTransaction>
+                    <LeasingTransaction>
+                      <lastpresentation>01.09.2018</lastpresentation>
+                      <remainingdebt>
+                        <sum>0.00</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                      <LateLeasingSum>
+                        <debit>0.00</debit>
+                        <credit>0.00</credit>
+                        <rest>0.00</rest>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </LateLeasingSum>
+                    </LeasingTransaction>
+                    <LeasingTransaction>
+                      <lastpresentation>31.08.2018</lastpresentation>
+                      <remainingdebt>
+                        <sum>0.00</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                      <LateLeasingSum>
+                        <debit>0.00</debit>
+                        <credit>0.00</credit>
+                        <rest>0.00</rest>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </LateLeasingSum>
+                    </LeasingTransaction>
+                    <LeasingTransaction>
+                      <lastpresentation>22.08.2018</lastpresentation>
+                      <remainingdebt>
+                        <sum>0.02</sum>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </remainingdebt>
+                      <LateLeasingSum>
+                        <debit>0.00</debit>
+                        <credit>0.00</credit>
+                        <rest>0.00</rest>
+                        <currency>
+                          <codcurrency>933</codcurrency>
+                          <namecurrency>BYN - Белорусский рубль</namecurrency>
+                        </currency>
+                      </LateLeasingSum>
+                    </LeasingTransaction>
+                    <DebtSum>
+                      <sum>0.00</sum>
+                      <currency>
+                        <codcurrency>933</codcurrency>
+                        <namecurrency>BYN - Белорусский рубль</namecurrency>
+                      </currency>
+                    </DebtSum>
+                  </contract>
+                </LeasingContractList>
+              </LeasingGroup>
+            </ContractList>
+            <requestnumber>11</requestnumber>
+          </client>
+        </result>
+      </Response>
+    </message>
+  </tbsData>
+  <signature_data>
+    <cert_serial_number>0000000000000000000000000000AAAAA</cert_serial_number>
+    <sign_time>2000-01-01T00:00:00.00</sign_time>
+  </signature_data>
+  <signature>111111111111111111111111111111111111111111111111111111111111111111111111111111111111</signature>
+</root>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <tbsData>
+
+    <doc_purpose>KBO11012</doc_purpose>
+
+    <message system="AISKB">
+      <MessageReference>111111111111111111111111111111111111111111</MessageReference>
+      <date>11.02.2023</date>
+      <source>
+        <bic>1111111111111</bic>
+        <bankname>Some bankname</bankname>
+      </source>
+      <Response type="11015" name="getfullhistscorefiz">
+        <MessageLinkReference>C111111111111111111111111111111</MessageLinkReference>
+        <result>
+          <completecode class="A">
+            <errorcode>0</errorcode>
+            <description>Запрос успешно обработан</description>
+          </completecode>
+          <client>
+            <titul>
+              <FIO>
+                <lastname>lastname</lastname>
+                <firstname>firstname</firstname>
+                <middlename>middlename</middlename>
+              </FIO>
+              <nationality>
+                <codCountry>112</codCountry>
+                <nameCountry>Республика Беларусь</nameCountry>
+              </nationality>
+              <sex>M</sex>
+              <IDNumber>11111111111111111111</IDNumber>
+              <birthday>01.01.2000</birthday>
+            </titul>
+            <registrationplace>
+              <country>
+                <codCountry>112</codCountry>
+                <nameCountry>Республика Беларусь</nameCountry>
+              </country>
+              <nationalplace>
+                <codSettlement>4401000000</codSettlement>
+                <nameSettlement>г. Гродно</nameSettlement>
+              </nationalplace>
+            </registrationplace>
+            <scoring>
+              <ratingclass>A3</ratingclass>
+              <finalscore>344</finalscore>
+              <finalPPD>0.36</finalPPD>
+            </scoring>
+          </client>
+        </result>
+      </Response>
+    </message>
+  </tbsData>
+  <signature_data>
+    <cert_serial_number>0000000000000000000000000000AAAAA</cert_serial_number>
+    <sign_time>2000-01-01T00:00:00.00</sign_time>
+  </signature_data>
+  <signature>111111111111111111111111111111111111111111111111111111111111111111111111111111111111</signature>
+</root>
