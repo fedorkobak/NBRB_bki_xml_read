@@ -42,7 +42,8 @@ def recursive_dict_reader(my_dict, prev_pef_names = [], keys_separator = "/"):
             res = {
                 **res,
                 **recursive_dict_reader(
-                    val, curr_key_dict
+                    val, curr_key_dict,
+                    keys_separator = keys_separator
                 )
             }
         else:
@@ -57,9 +58,9 @@ def dict_reading_decorator(func):
         exception is triggered - an empty dictionary 
         is returned.
     '''
-    def wrapper(dict):
+    def wrapper(dict, **kwargs):
         try:
-            return func(dict)
+            return func(dict, **kwargs)
         except KeyError:
             return {}
     
