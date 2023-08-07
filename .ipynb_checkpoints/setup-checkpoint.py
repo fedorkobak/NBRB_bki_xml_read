@@ -4,7 +4,7 @@ description='Collection of tools for reading bki.xml files provided by National 
 
 setup(
     name='NBRB-bki-xml-read',
-    version='0.0-1',
+    version='0.0.2',
     description=description,
     packages=['NBRB_bki_xml_read'],
     author_email='kobfedsur@gmail.com',
