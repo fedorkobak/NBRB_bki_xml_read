@@ -1,4 +1,4 @@
-`from NBRB_bki_xml_read.common_tools import dict_reading_decorator, sub_dict_reader
+from NBRB_bki_xml_read.common_tools import dict_reading_decorator, sub_dict_reader
 
 @dict_reading_decorator
 def read_client(client_dict, keys_separator="/"):
