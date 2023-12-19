@@ -1,21 +1,26 @@
+'''
+Functions that allows to read information for 
+individual client.
+'''
+
 from NBRB_bki_xml_read.common_tools import dict_reading_decorator, sub_dict_reader
 
 @dict_reading_decorator
 def read_client(client_dict, keys_separator="/"):
     '''
-        Read bki information starting from the "client" field.
-        
-        Arguments
-        -----------
-            client_dict :    (dict) dictionary which can be created
-                             from infromation between <client> tag
-                             of bki.xml
-            keys_separator : (str) describe symbols that will separate keys
-                             of input dictionaries in the result dictionary.
-        Returns
-        ----------
-            (dict) flat dictionary that contains 
-            infromation between <clint> tag from bki.xml. 
+    Read bki information starting from the "client" field.
+    
+    Arguments
+    -----------
+        client_dict :    (dict) dictionary which can be created
+                         from infromation between <client> tag
+                         of bki.xml
+        keys_separator : (str) describe symbols that will separate keys
+                         of input dictionaries in the result dictionary.
+    Returns
+    ----------
+        (dict) flat dictionary that contains 
+        infromation between <clint> tag from bki.xml. 
     '''
     res = {
         "client" + keys_separator + key:val
@@ -31,19 +36,19 @@ def read_client(client_dict, keys_separator="/"):
 @dict_reading_decorator
 def read_result(result_dict, keys_separator="/"):
     '''
-        Read the response from bki starting from the "result" field.
+    Read the response from bki starting from the "result" field.
 
-        Arguments
-        -----------
-            result_dict :    (dict) dictionary which can be created
-                             from infromation between <result> tag
-                             of bki.xml
-            keys_separator : (str) describe symbols that will separate keys
-                             of input dictionaries in the result dictionary.
-        Returns
-        ----------
-            (dict) flat dictionary that contains 
-            infromation between <result> tag from bki.xml. 
+    Arguments
+    -----------
+        result_dict :    (dict) dictionary which can be created
+                         from infromation between <result> tag
+                         of bki.xml
+        keys_separator : (str) describe symbols that will separate keys
+                         of input dictionaries in the result dictionary.
+    Returns
+    ----------
+        (dict) flat dictionary that contains 
+        infromation between <result> tag from bki.xml. 
     '''
     
     res = {
