@@ -1,2 +1,4 @@
 bki_xml_test
 venv
+*__pycache__*
+*.ipynb_checkpoints*
