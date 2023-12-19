@@ -25,10 +25,10 @@ def read_client(client_dict, keys_separator="/"):
     res = {
         "client" + keys_separator + key:val
         for field_name in [
-            "titul", 
-            "registrationplace", 
-            "range", 
-            "scoring", 
+            "titul",
+            "registrationplace",
+            "range",
+            "scoring",
             "RequestNumber7Days",
             "RequestNumber30Days"
         ]
@@ -37,6 +37,12 @@ def read_client(client_dict, keys_separator="/"):
             keys_separator = keys_separator
         ).items()
     }
+
+    # requestnumber is only field in clint info
+    # that can be displayed as just number
+    if ("requestnumber" in client_dict):
+        res[f"client{keys_separator}requestnumber"] =\
+            client_dict["requestnumber"]
     
     return res
 
