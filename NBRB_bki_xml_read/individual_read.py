@@ -24,7 +24,14 @@ def read_client(client_dict, keys_separator="/"):
     '''
     res = {
         "client" + keys_separator + key:val
-        for field_name in ["titul", "registrationplace", "range", "scoring"]
+        for field_name in [
+            "titul", 
+            "registrationplace", 
+            "range", 
+            "scoring", 
+            "RequestNumber7Days",
+            "RequestNumber30Days"
+        ]
         for key, val in sub_dict_reader(
             client_dict, field_name,
             keys_separator = keys_separator
