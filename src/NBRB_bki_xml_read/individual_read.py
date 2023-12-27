@@ -2,8 +2,11 @@
 Functions that allows to read information for 
 individual client.
 '''
+from NBRB_bki_xml_read.common_tools import (
+    dict_reading_decorator, 
+    sub_dict_reader
+)
 
-from NBRB_bki_xml_read.common_tools import dict_reading_decorator, sub_dict_reader
 
 @dict_reading_decorator
 def read_client(client_dict, keys_separator="/"):
@@ -22,29 +25,48 @@ def read_client(client_dict, keys_separator="/"):
         (dict) flat dictionary that contains 
         infromation between <clint> tag from bki.xml. 
     '''
+
     res = {
-        "client" + keys_separator + key:val
-        for field_name in [
-            "titul",
-            "registrationplace",
-            "range",
-            "scoring",
-            "RequestNumber7Days",
-            "RequestNumber30Days"
-        ]
-        for key, val in sub_dict_reader(
-            client_dict, field_name,
-            keys_separator = keys_separator
-        ).items()
+        # here are relatively simple fields that can be read just as
+        # as dictionaries throw sub_dict_reader
+        **{
+            "client" + keys_separator + key:val
+            for field_name in [
+                "titul",
+                "registrationplace",
+                "range",
+                "scoring",
+                "RequestNumber7Days",
+                "RequestNumber30Days"
+            ]
+            for key, val in sub_dict_reader(
+                client_dict, field_name,
+                keys_separator = keys_separator
+            ).items()
+        },
+        # there are values that can't be encoded with
+        # sub_dict_reader so we just take them.
+        # we use it in three cases.
+        # - Final value is under key;
+        # - Some complex type that cannot be properly 
+        #   encoded with sub_dict_reader;
+        # - We didn't understand yet that this field can
+        #   be encoded with sub_dict_reader ;).
+        **{
+            "client" + keys_separator + field_name : client_dict[field_name]
+            for field_name in [
+                "owner",
+                "contracttype",
+                "ContractList",
+                "requestnumber",
+                "TotalDebtSum"
+            ]
+            if field_name in client_dict
+        }
     }
 
-    # requestnumber is only field in clint info
-    # that can be displayed as just number
-    if ("requestnumber" in client_dict):
-        res[f"client{keys_separator}requestnumber"] =\
-            client_dict["requestnumber"]
-    
     return res
+
 
 @dict_reading_decorator
 def read_result(result_dict, keys_separator="/"):
@@ -71,7 +93,7 @@ def read_result(result_dict, keys_separator="/"):
         ),
         **(
             read_client(result_dict["client"], keys_separator = keys_separator)
-            if "client" in result_dict.keys() else {}
+            if ("client" in result_dict.keys()) else {}
         )
     }
 
