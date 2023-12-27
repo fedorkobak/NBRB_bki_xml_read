@@ -1,6 +1,6 @@
 [project]
 name = "NBRB-bki-xml-read"
-version = "0.0.3"
+version = "0.0.4"
 authors = [
   { name="Fedor Kobak", email="kobfedsur@gmail.com" },
 ]

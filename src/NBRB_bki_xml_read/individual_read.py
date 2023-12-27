@@ -8,6 +8,32 @@ from NBRB_bki_xml_read.common_tools import (
 )
 
 
+def read_laterange_count(laterange):
+    """
+    Reat structure with tupe of 
+    `CType-LateCount`.
+
+    Arguments
+    -----------
+    laterange : (list) contains dicts with keys:
+                'mindays' with min day of late;
+                'maxdays' with max day of late;
+                'count' value;
+    
+    Returns
+    -----------
+    (dict) flat dict with the same information.
+    """
+    return {
+        (
+            f"[{r['mindays']};{r['maxdays']}]"
+            if ('maxdays' in r) else
+            f">{r['mindays']}"
+        ) : int(r["count"])
+        for r in laterange
+    }
+
+
 @dict_reading_decorator
 def read_client(client_dict, keys_separator="/"):
     '''
