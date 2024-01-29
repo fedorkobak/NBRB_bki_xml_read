@@ -2,18 +2,18 @@
 Functions that allows to read information for 
 individual client.
 '''
-from NBRB_bki_xml_read.common_tools import (
+from .common_tools import (
     dict_reading_decorator, 
     sub_dict_reader
 )
 
 
-def read_laterange_count(laterange):
+def read_latecount(laterange):
     """
-    Reat structure with tupe of 
+    Read structure with type of 
     `CType-LateCount`.
 
-    Arguments
+    Parameters
     -----------
     laterange : (list) contains dicts with keys:
                 'mindays' with min day of late;
@@ -33,13 +33,12 @@ def read_laterange_count(laterange):
         for r in laterange
     }
 
-
 @dict_reading_decorator
 def read_client(client_dict, keys_separator="/"):
     '''
     Read bki information starting from the "client" field.
     
-    Arguments
+    Parameters
     -----------
         client_dict :    (dict) dictionary which can be created
                          from infromation between <client> tag
@@ -99,7 +98,7 @@ def read_result(result_dict, keys_separator="/"):
     '''
     Read the response from bki starting from the "result" field.
 
-    Arguments
+    Parameters
     -----------
         result_dict :    (dict) dictionary which can be created
                          from infromation between <result> tag
