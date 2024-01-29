@@ -4,7 +4,12 @@ from src.NBRB_bki_xml_read.individual_read import (
 )
 
 class TestReadLatecount(unittest.TestCase):
+    '''
+    Testing NBRB_bki_xml_read.individual_read.read_latecount
+    '''
 
+    # here are lisr of optison that can be passed to funtion
+    # and results corresponds to them
     options = [
         (
             [
@@ -37,6 +42,10 @@ class TestReadLatecount(unittest.TestCase):
     ]
 
     def test_read_latecount(self):
+        '''
+        Try different options and check that
+        function returns the correct result.
+        '''
         for option, result in self.options:
             self.assertEqual(
                 read_latecount(option), result
