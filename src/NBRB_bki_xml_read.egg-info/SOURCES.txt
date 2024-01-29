@@ -8,3 +8,4 @@ src/NBRB_bki_xml_read.egg-info/SOURCES.txt
 src/NBRB_bki_xml_read.egg-info/dependency_links.txt
 src/NBRB_bki_xml_read.egg-info/requires.txt
 src/NBRB_bki_xml_read.egg-info/top_level.txt
+tests/tests.py
